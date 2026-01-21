@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Converty Shop</title>
+    <style>
+        body { margin: 0; background: #0f172a; color: white; font-family: Arial; }
+        .app { display: flex; min-height: 100vh; }
+        .sidebar { width: 250px; background: #1e293b; padding: 20px; }
+        .content { flex: 1; padding: 20px; }
+        .menu-item { padding: 10px; margin: 5px 0; cursor: pointer; border-radius: 5px; }
+        .menu-item:hover { background: #6a7aff; }
+        .card { background: #1e293b; padding: 20px; border-radius: 10px; margin: 10px 0; }
+        .btn { background: #6a7aff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <div class="sidebar">
+            <h2>🛍️ Converty</h2>
+            <div class="menu-item">📊 Dashboard</div>
+            <div class="menu-item">📦 Orders</div>
+            <div class="menu-item">🏷️ Products</div>
+            <div class="menu-item">📈 Analytics</div>
+        </div>
+        <div class="content">
+            <h1>Welcome to Converty Shop</h1>
+            <p>Local version running successfully!</p>
+            <div class="card">
+                <h3>📊 Quick Stats</h3>
+                <p>Orders: 1,247</p>
+                <p>Revenue: $24,580</p>
+                <p>Customers: 548</p>
+            </div>
+            <button class="btn" onclick="alert('Feature working!')">Test Button</button>
+        </div>
+    </div>
+    <script>console.log('✅ Converty Shop loaded');</script>
+</body>
+</html>

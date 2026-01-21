@@ -1,0 +1,1 @@
+.dashboard{display:flex;flex-direction:column;width:100%;padding:5px 0;gap:20px;overflow-y:auto;overflow-x:hidden}.dashboard-notification{width:100%;padding:0 8px;margin-top:15px;max-width:1200px;align-self:center}.dashboard-row{box-sizing:border-box;display:flex;flex-direction:row;gap:16px}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Converty Shop Demo</title>
+    <style>
+        body { 
+            margin: 0; 
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .sidebar {
+            background: rgba(0,0,0,0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .main {
+            flex: 1;
+            background: rgba(0,0,0,0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .flex { display: flex; }
+        .logo { 
+            font-size: 24px; 
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .menu-item {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu-item:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container flex">
+        <div class="sidebar" style="width: 250px;">
+            <div class="logo">🛍️ Converty Shop</div>
+            <div class="menu-item">📊 Dashboard</div>
+            <div class="menu-item">📦 Orders</div>
+            <div class="menu-item">🏷️ Products</div>
+            <div class="menu-item">📈 Analytics</div>
+            <div class="menu-item">⚙️ Settings</div>
+        </div>
+        
+        <div class="main">
+            <h1>Welcome to Converty Shop</h1>
+            <p>Local development version running successfully!</p>
+            
+            <div class="flex">
+                <div class="card" style="flex: 1; margin-right: 10px;">
+                    <h3>📦 Total Orders</h3>
+                    <h2>1,247</h2>
+                </div>
+                <div class="card" style="flex: 1; margin-right: 10px;">
+                    <h3>💰 Revenue</h3>
+                    <h2>$24,580</h2>
+                </div>
+                <div class="card" style="flex: 1;">
+                    <h3>👥 Customers</h3>
+                    <h2>548</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        console.log('✅ Converty Shop running locally');
+    </script>
+</body>
+</html>
